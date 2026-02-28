@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form with Captcha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Simple Form</h2>
+
+  
+    <input type="text" id="input1" placeholder="Enter First Value">
+    <input type="text" id="input2" placeholder="Enter Second Value">
+
+    
+    <div id="extraSection" class="hidden">
+
+        <div class="captcha-box" id="captchaText"></div>
+        <button type="button" id="refreshCaptcha">Refresh Captcha</button>
+
+        <input type="text" id="captchaInput" placeholder="Enter Captcha">
+
+        <input type="text" id="input3" placeholder="Enter Third Value">
+
+    </div>
+
+    <button id="submitBtn">Submit</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
